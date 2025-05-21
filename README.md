@@ -1,34 +1,33 @@
-# One-Click Test Generator 🧪⚡  
-**Automatically generate unit tests with Trae AI IDE**  
+# 🚀 One-Click Test Generator 
 
-👉 **Live Demo**: [Vercel/Netlify Link] (if applicable)  
-🎥 **Video Demo**: [YouTube/Loom Link] (required)  
+[![Streamlit Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-demo-link.streamlit.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🚀 Features  
-- Generate pytest/Jest tests from Python/JS code in 1 click.  
-- Customizable prompts (e.g., "Add edge cases").  
-- Works inside Trae AI IDE (no external dependencies).  
+**Generate unit tests instantly with Trae AI IDE** – Supports Python (pytest) and JavaScript (Jest) with one click.
 
-## ⚙️ How to Install  
-1. **Download Trae AI IDE** from [trae.ai](https://www.trae.ai).  
-2. **Import the Agent**:  
-   - Go to `Agents` → `Import` → Select `trae_agent/testgen_agent.json`.  
+![Demo GIF](docs/demo.gif)
 
-## 🛠️ Usage  
-1. Open a code file (e.g., `examples/python/calculator.py`).  
-2. Run the **TestGen agent** from Trae’s sidebar.  
-3. See generated tests in `examples/python/calculator_test.py`!  
+## ✨ Features
+- **AI-Powered Test Generation** - Uses Trae AI's advanced code understanding
+- **Multi-Language Support** - Python (pytest) and JavaScript (Jest) 
+- **Smart Edge Cases** - Automatically tests nulls, negatives, and edge values
+- **Streamlit UI** - User-friendly interface for quick testing
 
-## 📸 Screenshots  
-| Code Input | Test Output |  
-|------------|-------------|  
-| ![Code](docs/code.png) | ![Tests](docs/tests.png) |  
+## 🛠️ Installation
+```bash
+# Clone repo
+git clone https://github.com/Mistra1n/one-click-test-generator-.git
+cd one-click-test-generator-
 
-## 🔧 Built With  
-- Trae AI IDE (GPT-4o/Claude 3)  
-- Python/pytest + JavaScript/Jest  
+# Install dependencies
+pip install -r requirements.txt
+```
+## 🧪 How It Works
 
-## 🙋 FAQ  
-**Q: Can I add my own prompts?**  
-A: Yes! Edit `testgen_agent.json` in Trae’s Agent Studio.  
- 
+ Write code in examples/ folder
+
+Run Trae Agent to generate tests:
+```bash
+    # In Trae AI IDE:
+Import testgen_agent.json and run on your code
+ ```
