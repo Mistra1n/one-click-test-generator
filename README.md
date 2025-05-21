@@ -16,8 +16,8 @@
 ## 🛠️ Installation
 ```bash
 # Clone repo
-git clone https://github.com/Mistra1n/one-click-test-generator-.git
-cd one-click-test-generator-
+git clone https://github.com/Mistra1n/one-click-test-generator.git
+cd one-click-test-generator
 
 # Install dependencies
 pip install -r requirements.txt
