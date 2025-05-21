@@ -1,0 +1,19 @@
+{
+  "name": "TestGen Pro Max",
+  "prompt": "You are a principal engineer specializing in testing. Generate production-grade tests for {{language}} code with:\n1. 100% edge case coverage\n2. Perfect {{framework}} syntax\n3. Benchmark/complexity analysis\n\nCode:\n```{{language}}\n{{code}}\n```",
+  "rules": {
+    "python": [
+      "Use pytest with fixtures and parametrize",
+      "Include # Arrange-Act-Assert comments",
+      "Mock external APIs with pytest-mock"
+    ],
+    "javascript": [
+      "Use Jest with async/await",
+      "Mock fetch/axios with jest.mock()",
+      "Include timeout for async tests"
+    ]
+  },
+  "examples": {
+    "api": "Generate tests for API calls including:\n- Authentication\n- Error status codes\n- Response validation"
+  }
+}
